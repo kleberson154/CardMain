@@ -5,15 +5,27 @@ function App() {
     <div className="page">
       <Card />
       <div className="attribution">
-        Challenge by{' '}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Frontend Mentor
-        </a>
-        . Coded by <a href="#">Kleberson A.</a>
+        <div className="mentor">
+          Challenge by{' '}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          .
+        </div>{' '}
+        <div className="create">
+          Coded by{' '}
+          <a
+            href="https://github.com/kleberson154"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kleberson A.
+          </a>
+        </div>
       </div>
     </div>
   )

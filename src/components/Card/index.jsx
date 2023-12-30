@@ -5,19 +5,19 @@ function Card() {
   return (
     <div className="card">
       <img src={imgCard} className="card-img-top" alt="image for card"></img>
-      <div>Learning</div>
+      <div className="tag">Learning</div>
 
-      <p>Published 21 Dec 2023</p>
+      <p className="data-public">Published 21 Dec 2023</p>
 
-      <h1>HTML & CSS foundations</h1>
+      <h1 className="title">HTML & CSS foundations</h1>
 
-      <p>
+      <p className="descript">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
 
-      <p>
-        <img src={imgGreg} alt="image of the Greg" />
+      <p className="autor">
+        <img className="imgGreg" src={imgGreg} alt="image of the Greg" />
         <strong>Greg Hooper</strong>
       </p>
     </div>
