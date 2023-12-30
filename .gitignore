@@ -27,5 +27,3 @@ dist-ssr
 *.xd
 .DS_Store
 .prettierignore
-.gitignore
-.eslintrc.cjs
